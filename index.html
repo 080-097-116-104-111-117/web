@@ -1,0 +1,82 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div class="outerShell">
+        <H1 > Calculator </H1>
+        <div class="container">
+            <form id=myForm name="loan-form" >
+                <div class='amountBlock'>
+                    Amount:<br>
+                    <input type="number" name="amount" id="amount" style="border-radius:5px" placeholder=""> <br>
+                </div>
+                <div class='aprBlock'>
+                    Interest Rate:<br>
+                    <input type="number" name="apr" id="apr" style="border-radius:5px"><br>
+                </div>
+                <div class='durationBlock'>
+                    Duration:<br>
+                    <input type=number name="duration" id="duration" style="border-radius:5px"><br>
+                    <br>
+                </div>
+                <div id=buttonBlock>
+                    <button id=bttn style="border-radius: 0;" value="Submit">Find Out</button>
+                </div>
+            </form>
+        </div>
+        <div id="result">
+
+            <p id="text"></p>
+
+            <!-- <P id="text"> EMI: Rs. </br>  Total: Rs. </P> -->
+
+            <div id="exit" >
+                <div id="cross"></div>
+            </div>
+            <div id="exit1" >
+                <p id="text1"></p>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+    <!-- <h1 style="text-align:center" style="padding: 10%;">CALCULATOR</h1>
+
+    <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address: </label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password:</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button> 
+      </form>-->
+
+
+
+
+
+
+    <script src='index.js'> </script>
+
+</body>
+
+</html>

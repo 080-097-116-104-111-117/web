@@ -1,0 +1,143 @@
+body{
+    margin:20px;
+    background:linear-gradient(rgb(241, 241, 151),rgb(240, 78, 78));
+    display:flex;
+    justify-content:center;
+    
+}
+
+.divShell{
+    background-color: antiquewhite
+  }
+  
+  H1{
+    text-align: center;
+    text-transform: uppercase;
+    color:rgb(0, 216, 245);
+  }
+  .container{
+      width:500px;
+  }
+  form{
+    border-radius: 20px;
+    background-image: linear-gradient(rgb(248, 89, 89),rgb(248, 248, 94));
+    align-self: center;
+    color: rgb(42, 17, 187);
+    margin: 6px;
+    padding-top: 20px;
+    padding-bottom:20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: "Times New Roman", Times, serif;
+    box-shadow: 15px 15px 5px rgb(158, 91, 91);
+  }
+  
+  .amountBlock{
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+  }
+  
+  .aprBlock{
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+  }
+  
+  .durationBlock{
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+  }
+  
+  .buttonBlock{
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right:20px
+  }
+  
+  button{
+    cursor: pointer;
+    position: relative;
+    left: 44.3%;
+    bottom: 25%;
+    background-color: navy;
+    color: white;
+    padding: 5px;
+    border-radius: 30px;
+  }
+
+  button:hover{
+    background-color: blue;
+  }
+
+  #result{
+    display: none;
+    position:relative;
+    top: 15px;
+    border-radius: 10px;
+    background: linear-gradient(rgb(38, 38, 90), rgb(77, 147, 150));
+    color: rgb(245, 235, 235);
+    padding: 20px;
+    
+    width:460px;
+    height:auto;
+    overflow: hidden;
+    box-shadow: 15px 15px 5px rgb(158, 91, 91) ;
+  }
+  #exit{
+      width:30px;
+      height:30px;
+      
+      cursor: pointer;
+      
+      position:relative;
+      top:-90px;
+      right: -450px;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+
+  
+    }
+
+    #exit:hover{
+      background:red;
+      color: white;
+    }
+
+  #cross{
+      width:2px;
+      height:15px;
+      background:rgb(255, 255, 255);
+      transform: rotate(45deg);
+      
+  }
+  #cross::after{
+    content:"";
+    width:2px;
+    height:15px;
+    background: rgb(253, 253, 253);
+    transform: rotate(90deg);
+    position: absolute;
+    cursor: pointer;
+}
+  
+  .demo{
+    width: 40px;
+    height: 20px;
+    background:rgb(92, 79, 79);
+    position: relative;
+    left: 420px;
+    bottom:90px;
+    border: 1px solid white;
+    box-shadow: 2px 2px rgba(70, 69, 69, 0.5);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  }
+  #text{
+    text-align:center; 
+  }
