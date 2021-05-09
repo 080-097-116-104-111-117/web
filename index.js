@@ -1,5 +1,5 @@
 
-function myFunction(e) {
+function myFunction() {
     let loanAmount = document.getElementById("amount").value;
     let loanInterest = document.getElementById("apr").value;
     let loanduration = document.getElementById("duration").value;
@@ -25,7 +25,7 @@ function myFunction(e) {
         document.getElementById("result").style.color = "black";
         
     }
-    e.preventDefault();
+    
     
 }
 
