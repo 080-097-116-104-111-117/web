@@ -1,5 +1,5 @@
 
-function myFunction() {
+function myFunction(e) {
     let loanAmount = document.getElementById("amount").value;
     let loanInterest = document.getElementById("apr").value;
     let loanduration = document.getElementById("duration").value;
@@ -26,7 +26,7 @@ function myFunction() {
         
     }
     
-    
+    e.preventDefault();
 }
 
 document.getElementById("bttn").addEventListener("click", myFunction);
