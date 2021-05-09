@@ -1,9 +1,24 @@
 body{
     margin:20px;
-    background:linear-gradient(rgb(241, 241, 151),rgb(240, 78, 78));
+    background:linear-gradient(rgb(236, 236, 81),rgb(240, 78, 78));
     display:flex;
     justify-content:center;
     
+}
+@media only screen and (max-width: 700px) {
+  body {
+    display: flex;
+    justify-content:center;
+  }
+ .container{
+   width: auto;
+ }
+ form {
+   width: auto;
+ }
+ #result {
+   width:auto;
+ }
 }
 
 .divShell{
@@ -13,14 +28,14 @@ body{
   H1{
     text-align: center;
     text-transform: uppercase;
-    color:rgb(0, 216, 245);
+    color:rgb(45, 0, 245);
   }
   .container{
       width:500px;
   }
   form{
     border-radius: 20px;
-    background-image: linear-gradient(rgb(248, 89, 89),rgb(248, 248, 94));
+    /* background-image: linear-gradient(rgb(248, 89, 89),rgb(248, 248, 94)); */
     align-self: center;
     color: rgb(42, 17, 187);
     margin: 6px;
@@ -29,13 +44,14 @@ body{
     padding-left: 50px;
     padding-right: 50px;
     font-family: "Times New Roman", Times, serif;
-    box-shadow: 15px 15px 5px rgb(158, 91, 91);
+    box-shadow: 2px 2px 5px 5px  rgb(158, 91, 91);
   }
   
   .amountBlock{
     text-align: center;
     font-weight: bold;
     padding: 20px;
+    
   }
   
   .aprBlock{
@@ -61,7 +77,7 @@ body{
   button{
     cursor: pointer;
     position: relative;
-    left: 44.3%;
+    left: 41%;
     bottom: 25%;
     background-color: navy;
     color: white;
