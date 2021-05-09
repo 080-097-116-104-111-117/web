@@ -15,16 +15,16 @@ function myFunction(e) {
     document.getElementById("text").innerHTML = "<B> EMI: Rs. <B> " + EMI + "<br>" + "<B> Total: Rs. <B>" + totalAmount;
 
     
-    if (loanAmount === "" || loanInterest === "" || loanduration === "") {
-        // alert("please fill!");
-        
-    }
-    else {
+    if (loanAmount !== "" || loanInterest !== "" || loanduration !== "") {
         document.getElementById("result").style.display = "block";
         document.getElementById("myForm").reset();
     }
+    else {
+        document.getElementById("result").style.display = "block";
+        document.getElementById("text").innerHTML = "<B>Enter the valid number!<br> Try again...<B>";
+        document.getElementById("result").style.color = "black";
         
-    
+    }
     e.preventDefault();
     
 }

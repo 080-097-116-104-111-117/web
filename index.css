@@ -35,7 +35,7 @@ body{
   }
   form{
     border-radius: 20px;
-    /* background-image: linear-gradient(rgb(248, 89, 89),rgb(248, 248, 94)); */
+    background-image: linear-gradient(rgb(248, 89, 89),rgb(248, 248, 94));
     align-self: center;
     color: rgb(42, 17, 187);
     margin: 6px;
@@ -94,14 +94,14 @@ body{
     position:relative;
     top: 15px;
     border-radius: 10px;
-    background: linear-gradient(rgb(38, 38, 90), rgb(77, 147, 150));
+    background: linear-gradient(rgb(86, 86, 180), rgb(34, 195, 201));
     color: rgb(245, 235, 235);
     padding: 20px;
-    
+    font-size: 20px;
     width:460px;
     height:auto;
     overflow: hidden;
-    box-shadow: 15px 15px 5px rgb(158, 91, 91) ;
+    box-shadow: 2px 2px 5px 5px  rgb(158, 91, 91);
   }
   #exit{
       width:30px;
@@ -110,7 +110,7 @@ body{
       cursor: pointer;
       
       position:relative;
-      top:-90px;
+      top:-105px;
       right: -450px;
       display:flex;
       justify-content: center;
@@ -139,6 +139,17 @@ body{
     transform: rotate(90deg);
     position: absolute;
     cursor: pointer;
+}
+#exit1{
+  width:200px;
+  height:200px;
+  background:rgb(255, 211, 15);
+  /* z-index: 9999; */
+  position: absolute;
+  top: 0;
+  left:0;
+  border-top-right-radius: 100% ;
+
 }
   
   .demo{
