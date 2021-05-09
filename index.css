@@ -1,6 +1,6 @@
 body{
     margin:20px;
-    background:linear-gradient(rgb(236, 236, 81),rgb(240, 78, 78));
+    background:linear-gradient(rgb(207, 207, 207),rgb(102, 102, 102));
     display:flex;
     justify-content:center;
     
@@ -9,7 +9,7 @@ body{
   form {height: 100vh;
   width: 100vw; }
   } */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   body {
     height: 100%;
     width: 100%;
@@ -41,7 +41,7 @@ body{
 }
 
 .divShell{
-    background-color: antiquewhite
+    background-color: antiquewhite;
   }
   
   H1{
@@ -49,14 +49,15 @@ body{
     text-transform: uppercase;
     color:rgb(45, 0, 245);
   }
+  
   .container{
       width:500px;
   }
   form{
     border-radius: 20px;
-    background-image: linear-gradient(rgb(248, 89, 89),rgb(248, 248, 94));
+    /* background-image: linear-gradient(rgb(248, 89, 89),rgb(248, 248, 94)); */
     align-self: center;
-    color: rgb(42, 17, 187);
+    color: rgb(0, 0, 0);
     margin: 6px;
     padding-top: 20px;
     padding-bottom:20px;
@@ -64,7 +65,7 @@ body{
     padding-right: 50px;
     font-size: 20px;
     font-family: "Times New Roman", Times, serif;
-    box-shadow: 2px 2px 5px 5px  rgb(158, 91, 91);
+    box-shadow: 2px 2px 5px 5px  rgb(63, 52, 52);
   }
   input[type="number"]{
     width: 100%;
@@ -118,14 +119,14 @@ body{
     position:relative;
     top: 15px;
     border-radius: 10px;
-    background: linear-gradient(rgb(86, 86, 180), rgb(34, 195, 201));
-    color: rgb(245, 235, 235);
+    background: linear-gradient(rgb(142, 142, 209), rgb(34, 195, 201));
+    color: rgb(0, 0, 0);
     padding: 20px;
     font-size: 20px;
     width:460px;
     height:auto;
     overflow: hidden;
-    box-shadow: 2px 2px 5px 5px  rgb(158, 91, 91);
+    box-shadow: 2px 2px 5px 5px  rgb(63, 52, 52);
   }
   #exit{
       width:30px;
@@ -167,12 +168,13 @@ body{
 #exit1{
   width:200px;
   height:200px;
-  background:rgb(255, 211, 15);
+  background: linear-gradient(rgb(126, 126, 216), rgb(34, 195, 201));
   /* z-index: 9999; */
   position: absolute;
   top: 0;
   left:0;
   border-top-right-radius: 100% ;
+  box-shadow: 2px 2px 5px 5px  rgb(63, 52, 52);
 
 }
   
